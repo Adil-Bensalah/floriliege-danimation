@@ -252,3 +252,122 @@ width: 560px;
   height: 200px;
   width: 560px;
   }
+
+  .car-img{
+    width: auto;
+    margin: auto;
+  }
+  @media (max-width:1100px) {
+    h1{
+      font-size: 40px;
+    }
+    h2{
+      font-size: 40px;
+    text-align: center;
+    }
+    .main-container{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      width: auto;
+  border: none;
+      
+    }
+    .section-discover{
+      justify-content: center;
+      flex-direction: column;
+        
+    }
+    .contact{
+      text-align: center;
+    }
+     .porche1{
+      display: none;
+    }
+    .car-img{
+      width: auto;
+      margin: auto;
+    }
+  }
+  
+  @media (max-width:900px) {
+     
+      .first-page{
+        height: 600px;
+  
+      }
+      .down-arrow{
+        top: 500px;
+      }
+      .cayman {
+      flex-direction: column;
+      
+    }
+  
+    .content{ 
+    text-align: center;
+    }
+  
+    .panamera{
+      flex-direction: column;
+     
+    }
+    .the911{
+      flex-direction: column;
+    
+    }
+  
+  .car-img{
+    width: auto;
+    margin: auto;
+  }
+  }
+  
+  @media (max-width:600px) {
+    h1{
+      font-size: 25px;
+    }
+    h2{
+      font-size: 30px;
+    text-align: center;
+    }
+    .car-img{
+      width: auto;
+      margin: auto;
+    }
+  
+    .cayman img{
+     height: 200px;
+     width: 400px;
+    
+    }
+    .panamera img{
+    height: 200px;
+    width: 400px;
+    }
+    .the911 img{
+      height: 200px;
+      width: 400px;
+      }
+  }
+  
+  @media (max-width:410px) {
+    .car-img{
+      width: auto;
+      margin: auto;
+    }
+  
+    .cayman img{
+     height: 200px;
+     width: 300px;
+    
+    }
+    .panamera img{
+    height: 200px;
+    width: 300px;
+    }
+    .the911 img{
+      height: 200px;
+      width: 300px;
+      }
+  }
