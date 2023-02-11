@@ -231,7 +231,8 @@ font-weight: 200;
 }
 .content{
  text-align: left;
- margin-right:30px ;
+ margin-right:60px ;
+ margin-left: 60px;
 
 }
 
